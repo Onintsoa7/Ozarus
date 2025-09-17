@@ -1,0 +1,23 @@
+<header class="search-header">
+  <div class="search-header__container">
+    <!-- Logo -->
+    <div class="search-header__logo">
+      <img [src]='logo' alt="OZARUS LOGO">
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-header__search">
+      <div class="search_form">
+      <i class="fa-solid fa-search" style="color: rgba(173, 174, 188, 1);"></i>
+        <input
+        type="text"
+        placeholder="Enter contract address..."
+        [(ngModel)]="contractAddress"
+      />
+      </div>
+      <div class="btn-form">
+        <button (click)="onScan()">Scan</button>
+      </div>
+    </div>
+  </div>
+</header>

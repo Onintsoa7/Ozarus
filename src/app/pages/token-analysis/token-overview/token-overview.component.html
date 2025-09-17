@@ -1,0 +1,86 @@
+<div class="token-overview">
+  <!-- Header Card -->
+  <div class="token-overview__header">
+    <div class="token-info">
+      <img [src]='bitcoin' alt="Token Logo" class="token-logo" />
+      <div class="token-meta">
+        <h2 class="token-name">SafeMoon Token</h2>
+        <div class="security-rating">
+          <span>Security Rating:</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 85%"></div>
+          </div>
+          <span class="percent">85%</span>
+        </div>
+        <div class="addresses">
+          <div class="address-box">
+            <span>Contract Address:</span>
+            <span class="value">
+              <p>0x8076...9a2c</p>
+              <img [src]='copy_icon' alt="Copy" class="copy-icon" />
+            </span>
+          </div>
+          <div class="address-box">
+            <span>Creator:</span>
+            <span class="value">
+              <p>0x1234...5678</p>
+              <img [src]='copy_icon' alt="Copy" class="copy-icon" />
+            </span>
+          </div>
+        </div>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        />
+        <div class="actions">
+          <button class="btn btn-purple">
+            <img [src]='reload' alt="Copy" class="copy-icon" /> Re-scan
+          </button>
+          <button class="btn btn-dark">
+            <i class="fa-solid fa-bell"></i> <span class="action_text">Set Alert</span>
+          </button>
+          <button class="btn btn-dark">
+            <i class="fa-solid fa-bookmark"></i> <span class="action_text">Add to Watchlist</span>
+          </button>
+          <button class="btn btn-dark">
+            <i class="fa-solid fa-share"></i> <span class="action_text">Share</span>
+          </button>
+          <button class="btn btn-dark">
+           <img [src]='pdf' alt="Copy" class="copy-icon" /> <span class="action_text">Export PDF</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Stats Cards -->
+  <div class="stats">
+    <div class="stat-card">
+      <div class="stat-title">
+        <p>Market Cap</p>
+        <img [src]='market_cap' alt="Market Cap" />
+      </div>
+      <p class="stat-value blue">$2.4B</p>
+      <p class="stat-sub green">+12.5% (24h)</p>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-title">
+        <p>Liquidity</p>
+        <img [src]='liquidity' alt="Liquidity" />
+      </div>
+      <p class="stat-value purple">$156M</p>
+      <p class="stat-sub">Locked: 89%</p>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-title">
+        <p>Top 100 Control</p>
+        <img [src]='control' alt="Top 100 Control" />
+      </div>
+      <p class="stat-value yellow">23.7%</p>
+      <p class="stat-sub green">Low Risk</p>
+    </div>
+  </div>
+</div>

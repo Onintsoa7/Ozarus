@@ -1,0 +1,34 @@
+<div class="network-visualization">
+
+  <!-- Wallet Network Analysis -->
+  <div class="card">
+    <div class="card-header">
+      <h3>Wallet Network Analysis</h3>
+      <button class="btn btn-purple">
+        <i class="fa-solid fa-download"></i> Generate Network Map
+      </button>
+    </div>
+
+    <div class="analysis-box">
+      <div class="loading">
+        <i class="fa-solid fa-spinner fa-spin"></i>
+        <span>Loading network analysis...</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bubblemaps Visualization -->
+  <div class="card">
+    <div class="card-header">
+      <h3>Bubblemaps Visualization</h3>
+      <button class="btn btn-dark">
+        <i class="fa-solid fa-list"></i> Address List
+      </button>
+    </div>
+    <p class="subtitle">Last updated: 2 minutes ago</p>
+
+    <div class="bubblemaps">
+      <img [src]='bubblemap_vis' alt="Bubblemap" />
+    </div>
+  </div>
+</div>

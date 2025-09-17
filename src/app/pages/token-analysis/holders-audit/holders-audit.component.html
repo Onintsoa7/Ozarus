@@ -1,0 +1,75 @@
+<div class="holders-audit">
+
+  <!-- Holders Distribution -->
+  <div class="card holders">
+    <div class="card-header">
+      <h3>Holders Distribution</h3>
+      <span class="tag green">Low Concentration</span>
+    </div>
+
+    <div class="holders-content">
+      <!-- Left: Pie chart (placeholder image for now) -->
+      <div class="chart">
+        <img [src]='holder_chart' alt="Holders chart" style="width: 100%;" />
+      </div>
+
+      <!-- Right: Top 10 Holders -->
+      <div class="top-holders">
+        <h4>Top 10 Holders</h4>
+        <table>
+          <tr>
+            <td class="number_ranking">1</td>
+            <td>0×1a2b...c3d4</td>
+            <td>8.5%</td>
+            <td class="value">$204M</td>
+          </tr>
+          <tr>
+            <td class="number_ranking">2</td>
+            <td>0×5e6f...7g8h</td>
+            <td>6.2%</td>
+            <td class="value">$149M</td>
+          </tr>
+          <tr>
+            <td class="number_ranking">3</td>
+            <td>0×9i0j...1k2l</td>
+            <td>4.1%</td>
+            <td class="value">$98M</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Security Audit -->
+  <div class="card audit">
+    <h3>Security Audit</h3>
+
+    <div class="audit-stats">
+      <div class="stat green">
+        <div class="big">Disabled</div>
+        <div class="label">Mint Authority</div>
+      </div>
+      <div class="stat green">
+        <div class="big">Normal</div>
+        <div class="label">Price Impact</div>
+      </div>
+      <div class="stat green">
+        <div class="big">Disabled</div>
+        <div class="label">Freeze Authority</div>
+      </div>
+      <div class="stat blue">
+        <div class="big">142,847</div>
+        <div class="label">Total Holders</div>
+      </div>
+    </div>
+
+    <ul class="audit-list">
+      <li><i class="fa-solid fa-circle-check ok"></i> Contract is verified and open source</li>
+      <li><i class="fa-solid fa-circle-check ok"></i> No honeypot detected</li>
+      <li><i class="fa-solid fa-circle-exclamation warn"></i> High trading fees detected (12%)</li>
+      <li><i class="fa-solid fa-circle-check ok"></i> Liquidity is locked for 2 years</li>
+    </ul>
+
+  </div>
+
+</div>
