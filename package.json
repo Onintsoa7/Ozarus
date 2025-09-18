@@ -21,6 +21,8 @@
     "@angular/router": "^19.2.0",
     "@angular/ssr": "^19.2.1",
     "chart.js": "^4.4.4",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "chartjs-plugin-piechart-outlabels": "^0.1.4",
     "express": "^4.18.2",
     "ng2-charts": "^8.0.0",
     "rxjs": "~7.8.0",

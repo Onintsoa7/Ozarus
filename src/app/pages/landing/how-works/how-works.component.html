@@ -103,28 +103,26 @@
 
   </div>
 
-
-  <!-- Dashboard -->
   <div class="dashboard">
     <h3>Live Analysis Dashboard</h3>
     <div class="charts">
       <div class="chart-card">
         <div class="chart-placeholder">
-        <img [src]='jauge' alt="jauge" />
+          <canvas #gaugeCanvas></canvas>
         </div>
         <h4>Reliability Score</h4>
         <p>AI-powered risk assessment</p>
       </div>
       <div class="chart-card">
         <div class="chart-placeholder">
-          <img [src]='distribution' alt="distribution" />
+          <canvas #chartCanvas></canvas>
         </div>
         <h4>Holder Distribution</h4>
         <p>Top 100 holders analysis</p>
       </div>
       <div class="chart-card">
         <div class="chart-placeholder">
-        <img [src]='liquidity' alt="liquidity" />
+          <canvas #liquidityCanvas></canvas>
       </div>
         <h4>Liquidity Analysis</h4>
         <p>Pool depth & stability</p>

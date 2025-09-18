@@ -45,10 +45,18 @@
       display: flex;
       gap: 2rem;
 
-      .chart img {
-        width: 180px;
+      .chart{
+        width: 120vh;
+        margin-top: 15vh;
       }
 
+      .holder-chart-container {
+        width: 30vh;
+        height: 30vh;
+        margin: auto;
+        position: relative;
+        margin-bottom: 15vh;
+      }
       .top-holders {
         width: 70%;
 

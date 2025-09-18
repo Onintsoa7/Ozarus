@@ -10,7 +10,9 @@
     <div class="holders-content">
       <!-- Left: Pie chart (placeholder image for now) -->
       <div class="chart">
-        <img [src]='holder_chart' alt="Holders chart" style="width: 100%;" />
+        <div class="holder-chart-container">
+          <canvas #holderCanvas class="canvas"></canvas>
+        </div>
       </div>
 
       <!-- Right: Top 10 Holders -->
